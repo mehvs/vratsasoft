@@ -1,0 +1,86 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: #001D10;
+	overflow: hidden;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 20px;
+	display: block;
+	font-weight: bold;
+}
+
+.navbar a:hover {
+	background-color: #007342;
+	color: black;
+}
+
+.header {
+	display: flex;
+	background-color:#02301C;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	color: white;
+	overflow: auto;
+}
+
+.header img {
+	max-width: 100%;
+	height: auto;
+
+}
+
+.footer {
+	background-color: #001D10;
+	overflow: hidden;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+/*дейности*/
+
+
+.mainact {
+	display: flex;
+	background-color:#02301C;
+	justify-content: space-around;
+	color: white;
+	height: auto;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.mainact img {
+	width: 520px;
+	height: 380px;
+	
+	
+}
+
+.activity1 {
+	background-color: #004F2B;
+	max-width: 400px;
+	word-break: break-word;	
+	overflow: hidden;
+	text-align: center;
+
+}
+
+
+
